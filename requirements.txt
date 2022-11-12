@@ -1,16 +1,16 @@
+numpy==1.20.3
+pillow==8.3.2
 edt
 h5py
 matplotlib
-numpy
 pandas
 scikit_image
 SimpleITK
-skimage
 pydicom
 opencv-python
 nibabel
 plotly
-pickle
+# pickle
 torch
 torchio
 torchvision

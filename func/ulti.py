@@ -102,6 +102,7 @@ def get_3d_img_for_one_case(img_path_list, img_format="dcm"):
 
 def get_and_save_3d_img_for_one_case(img_path, output_file_path, img_format="dcm"):
     case_names=os.listdir(img_path)
+    case_names = [f for f in case_names if f.endswith(img_format)]
     case_names.sort()
     img_path_list = []
     for case_name in case_names:
